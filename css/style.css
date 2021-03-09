@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  outline: 0px;
+}
+
+.general-title {
+  margin: 20px;
+}
+
+.hw-title {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: brown;
+}
+
+.item {
+  margin: 10px;
+}
+
+#gallery {
+  display: flex;
+  list-style: none;
+}
+
+.img-hw {
+  margin: 15px;
+}
+
+#counter {
+  margin: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+/* task 7 */
+.task-container {
+  margin-left: 30px;
+}
