@@ -37,7 +37,7 @@ html {
 
 #gallery {
   display: flex;
-  list-style: none;
+  justify-content: space-around;
 }
 
 .img-hw {

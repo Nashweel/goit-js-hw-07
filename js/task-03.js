@@ -30,6 +30,6 @@ const imgListMarkup = images.map(makeImgListMarkup).join('')
 
 imageList.insertAdjacentHTML("beforeend", imgListMarkup)
 
-const imgClass = imageList.querySelectorAll('li').forEach(el => el.classList.add('img-hw'));
+const imgClass = imageList.querySelectorAll('li')
 
 console.log(imageList)
